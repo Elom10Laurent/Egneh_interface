@@ -1,9 +1,9 @@
 import {
   FaFacebookF,
   FaInstagram,
-  FaXTwitter,
+//   FaXTwitter,
   FaGithub,
-  FaYoutube,
+//   FaYoutube,
 } from "react-icons/fa6";
 
 const Footer = () => {

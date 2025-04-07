@@ -10,7 +10,7 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useLocation } from "react-router";
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
@@ -54,8 +54,8 @@ export default function NavBar() {
                     aria-current={item.current ? "page" : undefined}
                     className={classNames(
                       item.current
-                        ? "bg-[#FE41C4] text-white"
-                        : "text-gray-300 hover:bg-[#FE41C4] hover:text-white",
+                        ? "bg-yellow-400 text-white"
+                        : "text-gray-300 hover:bg-yellow-400 hover:text-white",
                       "rounded-md px-3 py-2 text-sm font-medium"
                     )}
                   >
@@ -69,7 +69,7 @@ export default function NavBar() {
             {/* Profile dropdown */}
             <Menu as="div" className="relative ml-3">
               <div>
-                <MenuButton className="relative flex rounded-full py-2 px-4 bg-[#FE41C4] text-sm focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                <MenuButton className="relative flex rounded-full py-2 px-4 bg-yellow-400 text-sm focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
                   Contact us
                 </MenuButton>
               </div>

@@ -1,14 +1,14 @@
-import React from "react";
+// import React from "react";
 import {
   FaFacebookF,
   FaInstagram,
-  FaXTwitter,
+  // FaXTwitter,
   FaGithub,
-  FaYoutube,
+  // FaYoutube,
 } from "react-icons/fa6";
 
 import image from "../assets/Kyc_Hero.png";
-import { FaceFrownIcon } from "@heroicons/react/24/outline";
+// import { FaceFrownIcon } from "@heroicons/react/24/outline";
 
 const Hero = () => {
     const testimonials = [
